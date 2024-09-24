@@ -1,0 +1,120 @@
+html{
+    background-color: #FEFFD2;
+    color:#FF7D29;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+a {
+    color: #914F1E;
+    text-decoration: none;
+  }
+
+/*กรอบรูป*/
+.divPic{
+    position: relative; 
+    height: 250px;
+    width: 100%;
+    border: 5px solid#FFA823;
+    padding: 5px;
+    margin: 0px 0px 5px 0px;
+}
+/*-----------------------------------------*/
+
+/*ส่วนหัว*/
+.divHead{
+    position: relative;
+    height: 250px;
+    width: 45%;
+    margin: -2px;
+}
+
+.divHead img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+/*-----------------------------------------*/
+
+/*ส่วนล่าง*/
+.divBot{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    border-top: 5px solid #FFA823;
+    text-align: center;
+
+}
+/*-----------------------------------------*/
+
+/*ส่วนตัวรูป 9 รูป*/
+
+.divBody {
+    position: relative;
+    width: 100%; 
+    height: 0;
+    padding-bottom: 33.33%; 
+    margin: 0px 0px 15% 0px;
+}
+
+.divBody div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 33.33%; 
+    text-align: center;
+}
+
+.divBody p {
+    margin: 0;
+}
+
+.img1 {
+    left: 0;
+}
+.img2 {
+    left: 33.33%;
+}
+.img3 {
+    left: 66.66%;
+}
+/*-----------------------------------------*/
+
+/*ตำแหน่งข้อความ*/
+.TextRight{
+    position: absolute;
+    width: 50%;
+    top: -1px;
+    right: 0;
+    padding: 12px;
+}
+
+.TextLeft{
+    position: absolute;
+    width: 45%;
+    left: 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/*-----------------------------------------*/
+
+/*ส่วนข้อความใน 9 รูป*/
+.divHeadList div {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    width: 50%; 
+    text-align: center;
+}
+.divHeadList p {
+    margin: 0px 0px 50px 0px ;
+}
+/*-----------------------------------------*/
